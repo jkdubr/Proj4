@@ -31,7 +31,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Proj4 is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "Proj4"
+    pod 'Proj4', :git => 'https://github.com/jkdubr/Proj4.git'
     
 ## Usage    
 
