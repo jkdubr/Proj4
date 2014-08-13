@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0EAFC2C4-65BB-4F57-8E37-5AF082159A43</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Proj4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE6B33E8-8034-4D7B-AE24-5E9CBD94B88E</key>
+		<string>https://github.com/jkdubr/Proj4.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/Proj4.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE6B33E8-8034-4D7B-AE24-5E9CBD94B88E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jkdubr/Proj4.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE6B33E8-8034-4D7B-AE24-5E9CBD94B88E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE6B33E8-8034-4D7B-AE24-5E9CBD94B88E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Proj4</string>
+		</dict>
+	</array>
+</dict>
+</plist>

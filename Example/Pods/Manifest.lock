@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.1)
+  - Proj4 (0.1.0)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - Proj4 (from `../`)
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  Proj4:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  Proj4: b1d1f7abc0ade4f0c811af934f28f50a1cdd1a36
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.33.1

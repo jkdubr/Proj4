@@ -1,0 +1,12 @@
+#import "MOBProjectionEPSG5738.h"
+
+@implementation MOBProjectionEPSG5738
+- (id)init
+{
+    if (self = [super initWithEPSG:5738 withDefinition:@""]) {
+        ;
+    }
+    return self;
+}
+
+@end

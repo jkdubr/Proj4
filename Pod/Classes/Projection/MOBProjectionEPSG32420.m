@@ -1,0 +1,12 @@
+#import "MOBProjectionEPSG32420.h"
+
+@implementation MOBProjectionEPSG32420
+- (id)init
+{
+    if (self = [super initWithEPSG:32420 withDefinition:@"+proj=utm +zone=20 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs"]) {
+        ;
+    }
+    return self;
+}
+
+@end

@@ -1,0 +1,12 @@
+#import "MOBProjectionEPSG2101.h"
+
+@implementation MOBProjectionEPSG2101
+- (id)init
+{
+    if (self = [super initWithEPSG:2101 withDefinition:@"+proj=lcc +lat_1=10.16666666666667 +lat_0=10.16666666666667 +lon_0=-71.60561777777777 +k_0=1 +x_0=0 +y_0=-52684.972 +ellps=intl +units=m +no_defs"]) {
+        ;
+    }
+    return self;
+}
+
+@end
