@@ -7,6 +7,19 @@
 
 Wrapper for Proj4js, library to transform coordinates from one coordinate system to another.
 
+## Example
+
+        MOBProj4 *proj4 = [[MOBProj4 alloc] init];
+        
+        MOBProjection *projFrom = [[MOBProjectionEPSG5514 alloc] init];
+        MOBProjection *projTo = [[MOBProjectionEPSG4326 alloc] init];
+        
+        MOBCoordinate *coor = [[MOBCoordinate alloc] initWithArrayXY:@[@-741370.14465332,@-1032965.4422302]];   //  Coordinates in projFrom format
+        
+        MOBCoordinate *coorTo = [proj4 transformFromProjection:projFrom toProjection:projTo coordinate:coor];
+        NSLog(@"Coordinates %@ in EPSG:%lu", coorTo, [projTo epsg]);
+    
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -18,7 +31,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Proj4 is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "Proj4"
+    pod 'Proj4', :git => 'https://github.com/jkdubr/Proj4.git'
     
 ## Usage    
 
