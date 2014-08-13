@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Proj4"
-  s.version          = "0.9"
+  s.version          = "0.9.1"
   s.summary          = "Wrapper for Proj4js, library to transform coordinates from one coordinate system to another"
   s.description      = <<-DESC
                         Wrapper for Proj4js, library to transform coordinates from one coordinate system to another,
