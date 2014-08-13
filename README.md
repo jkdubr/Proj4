@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/Proj4.svg?style=flat)](http://cocoadocs.org/docsets/Proj4)
 [![Platform](https://img.shields.io/cocoapods/p/Proj4.svg?style=flat)](http://cocoadocs.org/docsets/Proj4)
 
+Wrapper for Proj4js, library to transform coordinates from one coordinate system to another.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -17,6 +19,10 @@ Proj4 is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "Proj4"
+    
+## Usage    
+
+All definitions of projections are in folder https://github.com/jkdubr/Proj4/tree/master/Pod/Classes/Projection, it is more than 4000 files, because of optimalization, include to Pod folder just projections what you need. Projections EPSG4326 and EPSG5514 are included.
 
 ## Author
 
