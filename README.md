@@ -1,4 +1,4 @@
-# Proj4
+# This pod is no longer supported
 
 [![CI Status](http://img.shields.io/travis/Jakub Dubrovsky/Proj4.svg?style=flat)](https://travis-ci.org/Jakub Dubrovsky/Proj4)
 [![Version](https://img.shields.io/cocoapods/v/Proj4.svg?style=flat)](http://cocoadocs.org/docsets/Proj4)
